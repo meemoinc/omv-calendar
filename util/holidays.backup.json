@@ -1,0 +1,224 @@
+[
+  {
+    "name": "New Year 2026",
+    "startDate": "2026-01-01",
+    "dateRange": null,
+    "type": "Public Holiday"
+  },
+  {
+    "name": "Teachers' Reporting Day 2026",
+    "startDate": "2026-01-25",
+    "dateRange": null,
+    "type": "School Days"
+  },
+  {
+    "name": "First Term 2026",
+    "startDate": "2026-01-25",
+    "dateRange": "2026-01-25 - 2026-07-16",
+    "type": "School Days"
+  },
+  {
+    "name": "Beginning of Academic Year 2026",
+    "startDate": "2026-01-27",
+    "dateRange": null,
+    "type": "Other"
+  },
+  {
+    "name": "First of Ramadan",
+    "startDate": "2026-02-18",
+    "dateRange": null,
+    "type": "Public Holiday"
+  },
+  {
+    "name": "Professional Development Days",
+    "startDate": "2026-03-01",
+    "dateRange": "2026-03-01 - 2026-03-08",
+    "type": "Other"
+  },
+  {
+    "name": "Last 10 Days of Ramadan",
+    "startDate": "2026-03-09",
+    "dateRange": "2026-03-09 - 2026-03-19",
+    "type": "Public Holiday"
+  },
+  {
+    "name": "Eid-al-Fitr",
+    "startDate": "2026-03-20",
+    "dateRange": null,
+    "type": "Public Holiday"
+  },
+  {
+    "name": "On the occasion of Eid-al-Fitr",
+    "startDate": "2026-03-21",
+    "dateRange": "2026-03-21 - 2026-03-22",
+    "type": "Public Holiday"
+  },
+  {
+    "name": "Labour Day",
+    "startDate": "2026-05-01",
+    "dateRange": null,
+    "type": "Public Holiday"
+  },
+  {
+    "name": "Children's Day",
+    "startDate": "2026-05-10",
+    "dateRange": null,
+    "type": "Other"
+  },
+  {
+    "name": "School Transfer Period 1",
+    "startDate": "2026-05-17",
+    "dateRange": "2026-05-17 - 2026-06-15",
+    "type": "Other"
+  },
+  {
+    "name": "First Term Mid-Break",
+    "startDate": "2026-05-24",
+    "dateRange": "2026-05-24 - 2026-05-30",
+    "type": "Term Holidays"
+  },
+  {
+    "name": "Hajj Day",
+    "startDate": "2026-05-26",
+    "dateRange": null,
+    "type": "Public Holiday"
+  },
+  {
+    "name": "Eid-al-Adha",
+    "startDate": "2026-05-27",
+    "dateRange": null,
+    "type": "Public Holiday"
+  },
+  {
+    "name": "On the occasion of Eid-al-Adha",
+    "startDate": "2026-05-28",
+    "dateRange": "2026-05-28 - 2026-05-30",
+    "type": "Public Holiday"
+  },
+  {
+    "name": "Beginning of AL Batch 2026",
+    "startDate": "2026-06-07",
+    "dateRange": null,
+    "type": "Other"
+  },
+  {
+    "name": "Islamic New Year 1448",
+    "startDate": "2026-06-16",
+    "dateRange": null,
+    "type": "Public Holiday"
+  },
+  {
+    "name": "First Term Exam",
+    "startDate": "2026-06-30",
+    "dateRange": "2026-06-30 - 2026-07-09",
+    "type": "Exam Days"
+  },
+  {
+    "name": "New Admission - LKG & Gr. 1",
+    "startDate": "2026-07-09",
+    "dateRange": "2026-07-09 - 2026-08-31",
+    "type": "Other"
+  },
+  {
+    "name": "First Term Holidays",
+    "startDate": "2026-07-17",
+    "dateRange": "2026-07-17 - 2026-08-01",
+    "type": "Term Holidays"
+  },
+  {
+    "name": "Independence Day",
+    "startDate": "2026-07-26",
+    "dateRange": null,
+    "type": "Public Holiday"
+  },
+  {
+    "name": "On the occasion of Independence Day",
+    "startDate": "2026-07-27",
+    "dateRange": null,
+    "type": "Public Holiday"
+  },
+  {
+    "name": "National Day",
+    "startDate": "2026-08-14",
+    "dateRange": null,
+    "type": "Public Holiday"
+  },
+  {
+    "name": "Camps and Activities (KS1-KS4)",
+    "startDate": "2026-08-22",
+    "dateRange": "2026-08-22 - 2026-08-25",
+    "type": "Other"
+  },
+  {
+    "name": "Prophet Mohammad's (SAW) Birthday",
+    "startDate": "2026-08-25",
+    "dateRange": null,
+    "type": "Public Holiday"
+  },
+  {
+    "name": "Grade 10, 11 and 12 Final Exam",
+    "startDate": "2026-09-01",
+    "dateRange": "2026-09-01 - 2026-09-10",
+    "type": "Exam Days"
+  },
+  {
+    "name": "Second Term Mid-Break",
+    "startDate": "2026-09-13",
+    "dateRange": "2026-09-13 - 2026-09-19",
+    "type": "Term Holidays"
+  },
+  {
+    "name": "The Day Maldives Embraced Islam",
+    "startDate": "2026-09-24",
+    "dateRange": null,
+    "type": "Public Holiday"
+  },
+  {
+    "name": "Teachers' Day",
+    "startDate": "2026-10-05",
+    "dateRange": null,
+    "type": "Other"
+  },
+  {
+    "name": "School Transfer Period 2",
+    "startDate": "2026-10-18",
+    "dateRange": "2026-10-17 - 2026-11-17",
+    "type": "Other"
+  },
+  {
+    "name": "Victory Day",
+    "startDate": "2026-11-03",
+    "dateRange": null,
+    "type": "Public Holiday"
+  },
+  {
+    "name": "Republic Day",
+    "startDate": "2026-11-11",
+    "dateRange": null,
+    "type": "Public Holiday"
+  },
+  {
+    "name": "Professional Development Day",
+    "startDate": "2026-11-12",
+    "dateRange": null,
+    "type": "Other"
+  },
+  {
+    "name": "Second Term Exam",
+    "startDate": "2026-12-01",
+    "dateRange": "2026-12-01 - 2026-12-10",
+    "type": "Exam Days"
+  },
+  {
+    "name": "Second Term Holidays",
+    "startDate": "2026-12-18",
+    "dateRange": "2026-12-18 - 2027-01-12",
+    "type": "Term Holidays"
+  },
+  {
+    "name": "Second Term 2026",
+    "startDate": "2026-08-02",
+    "dateRange": "2026-08-02 - 2026-12-17",
+    "type": "School Days"
+  }
+]

@@ -1,0 +1,134 @@
+{
+  "jan": {
+    "flower": "Blue Pea",
+    "flower_mv": "ނަން ރީތިމާ",
+    "video": "jan.mp4",
+    "theme_color": "linear-gradient(rgba(0, 43, 64, 0.8) 0%, rgba(1, 0, 23, 0.8) 100%)",
+    "flower_description": "Also known as butterfly pea flower, this tea is celebrated for its vibrant blue hue. Its mild, earthy flavour with gentle floral notes is as soothing to drink as it is captivating to watch. A squeeze of lemon transforms it into a stunning purple, adding a touch of magic.",
+    "flower_image": "bg_jan.png",
+    "flower_benefit_1": "The Blue Pea is a beautiful flower that blooms in the spring. It is a symbol of love and purity.",
+    "flower_benefit_2": "The Blue Pea is a beautiful flower that blooms in the spring. It is a symbol of love and purity.",
+    "flower_benefit_3": "The Blue Pea is a beautiful flower that blooms in the spring. It is a symbol of love and purity."
+  },
+  "feb": {
+    "flower": "Watermelon",
+    "flower_mv": "ކަރާ",
+    "video": "feb.mp4",
+    "theme_color": "linear-gradient(180deg,rgba(30, 64, 0, 0) 0%, rgba(0, 0, 0, 0.8) 100%)",
+    "flower_description": "Light and subtly sweet, watermelon tea showcases the legendary fruit deeply situated in our culture. Each sip brings refreshing hydration and pure, fruity delight, a true taste of happiness in every cup.",
+    "flower_image": "bg_feb.png",
+    "flower_benefit_1": "The Blue Pea is a beautiful flower that blooms in the spring. It is a symbol of love and purity.",
+    "flower_benefit_2": "The Blue Pea is a beautiful flower that blooms in the spring. It is a symbol of love and purity.",
+    "flower_benefit_3": "The Blue Pea is a beautiful flower that blooms in the spring. It is a symbol of love and purity."
+  },
+  "mar": {
+    "flower": "Hibiscus",
+    "flower_mv": "ސައިމާ",
+    "video": "mar.mp4",
+    "theme_color": "linear-gradient(rgba(37, 51, 0, 0.8) 0%, rgba(43, 0, 0, 0.8) 100%)",
+    "flower_description": "Hibiscus tea, crafted from the dried petals of Hibiscus sabdariffa, is a vibrant herbal infusion. Its deep red hue and tart, cranberry-like flavour make it a refreshingly bold and invigorating drink.",
+    "flower_image": "bg_mar.png",
+    "flower_benefit_1": "The Blue Pea is a beautiful flower that blooms in the spring. It is a symbol of love and purity.",
+    "flower_benefit_2": "The Blue Pea is a beautiful flower that blooms in the spring. It is a symbol of love and purity.",
+    "flower_benefit_3": "The Blue Pea is a beautiful flower that blooms in the spring. It is a symbol of love and purity."
+  },
+  "apr": {
+    "flower": "Mango",
+    "flower_mv": "އަނބު",
+    "video": "apr.mp4",
+    "theme_color": "linear-gradient(180deg,rgba(30, 64, 0, 0.9) 0%, rgba(0, 0, 0, 0.9) 100%)",
+    "flower_description": "A taste of mango. This tea blends strong leaves with fresh mango puree, offering a smooth, naturally sweet flavour that's like a dessert in every sip.",
+    "flower_image": "bg_apr.png",
+    "flower_benefit_1": "The Blue Pea is a beautiful flower that blooms in the spring. It is a symbol of love and purity.",
+    "flower_benefit_2": "The Blue Pea is a beautiful flower that blooms in the spring. It is a symbol of love and purity.",
+    "flower_benefit_3": "The Blue Pea is a beautiful flower that blooms in the spring. It is a symbol of love and purity."
+  },
+  "may": {
+    "flower": "Jasmine",
+    "flower_mv": "ހުވަނދުމާ",
+    "video": "may.mp4",
+    "theme_color": "linear-gradient(180deg,rgba(30, 64, 0, 0.9) 0%, rgba(0, 0, 0, 0.9) 100%)",
+    "flower_description": "Jasmine has been infused in Maldivian tea for generations, offering a delicate, lightly floral sweetness that evokes comfort, nostalgia, and a timeless flavour.",
+    "flower_image": "bg_may.png",
+    "flower_benefit_1": "The Blue Pea is a beautiful flower that blooms in the spring. It is a symbol of love and purity.",
+    "flower_benefit_2": "The Blue Pea is a beautiful flower that blooms in the spring. It is a symbol of love and purity.",
+    "flower_benefit_3": "The Blue Pea is a beautiful flower that blooms in the spring. It is a symbol of love and purity."
+  },
+  "jun": {
+    "flower": "Mint",
+    "flower_mv": "ކުދީނާ",
+    "video": "jun.mp4",
+    "theme_color": "linear-gradient(180deg,rgba(30, 64, 0, 0.9) 0%, rgba(0, 0, 0, 0.9) 100%)",
+    "flower_description": "Made by infusing mint leaves in hot water, this tea delivers a strong, refreshing aroma and a naturally cooling flavour. Mint is also well-known for aiding digestion, making this tea both soothing and refreshing.",
+    "flower_image": "bg_jun.png",
+    "flower_benefit_1": "The Blue Pea is a beautiful flower that blooms in the spring. It is a symbol of love and purity.",
+    "flower_benefit_2": "The Blue Pea is a beautiful flower that blooms in the spring. It is a symbol of love and purity.",
+    "flower_benefit_3": "The Blue Pea is a beautiful flower that blooms in the spring. It is a symbol of love and purity."
+  },
+  "jul": {
+    "flower": "Passionfruit",
+    "flower_mv": "ޖުމްހޫރީ މޭވާ",
+    "video": "jul.mp4",
+    "theme_color": "linear-gradient(180deg,rgba(30, 64, 0, 0.9) 0%, rgba(0, 0, 0, 0.9) 100%)",
+    "flower_description": "Tropical and tangy, passion fruit tea bursts with a sweet-tart flavour. Each sip brings a bright, fruity lift that feels like a getaway to the sun-soaked islands of the Maldives.",
+    "flower_image": "bg_jul.png",
+    "flower_benefit_1": "The Blue Pea is a beautiful flower that blooms in the spring. It is a symbol of love and purity.",
+    "flower_benefit_2": "The Blue Pea is a beautiful flower that blooms in the spring. It is a symbol of love and purity.",
+    "flower_benefit_3": "The Blue Pea is a beautiful flower that blooms in the spring. It is a symbol of love and purity."
+  },
+  "aug": {
+    "flower": "Rose",
+    "flower_mv": "ފިނިފެންމާ",
+    "video": "aug.mp4",
+    "theme_color": "linear-gradient(rgba(56, 19, 59, 0.9) 0%, rgba(0, 0, 0, 0.9) 100%)",
+    "flower_description": "Crafted from fragrant rose petals, this tea carries a gentle sweetness and soft floral notes that linger pleasantly with every sip. The pink rose, cherished as our national flower, is commonly used for brewing.",
+    "flower_image": "bg_aug.png",
+    "flower_benefit_1": "The Blue Pea is a beautiful flower that blooms in the spring. It is a symbol of love and purity.",
+    "flower_benefit_2": "The Blue Pea is a beautiful flower that blooms in the spring. It is a symbol of love and purity.",
+    "flower_benefit_3": "The Blue Pea is a beautiful flower that blooms in the spring. It is a symbol of love and purity."
+  },
+  "sep": {
+    "flower": "Lemongrass",
+    "flower_mv": "ކާސިންޖީ",
+    "video": "sep.mp4",
+    "theme_color": "linear-gradient(180deg,rgba(30, 64, 0, 0.9) 0%, rgba(0, 0, 0, 0.9) 100%)",
+    "flower_description": "Citrusy and aromatic, lemongrass tea delivers a fresh, herbal flavour with bright hints of lemon. Its light, clean taste soothes the senses, supports digestion, and refreshes naturally.",
+    "flower_image": "bg_sep.png",
+    "flower_benefit_1": "The Blue Pea is a beautiful flower that blooms in the spring. It is a symbol of love and purity.",
+    "flower_benefit_2": "The Blue Pea is a beautiful flower that blooms in the spring. It is a symbol of love and purity.",
+    "flower_benefit_3": "The Blue Pea is a beautiful flower that blooms in the spring. It is a symbol of love and purity."
+  },
+  "oct": {
+    "flower": "Basil",
+    "flower_mv": "ގަނދަކޯޅި",
+    "video": "oct.mp4",
+    "theme_color": "linear-gradient(180deg,rgba(30, 64, 0, 0.9) 0%, rgba(0, 0, 0, 0.9) 100%)",
+    "flower_description": "Aromatic and herbaceous, basil tea is crafted by steeping fresh or dried leaves in hot water. Its distinctive savory-sweet flavour, with a hint of peppery warmth, makes for a soothing and memorable brew.",
+    "flower_image": "bg_oct.png",
+    "flower_benefit_1": "The Blue Pea is a beautiful flower that blooms in the spring. It is a symbol of love and purity.",
+    "flower_benefit_2": "The Blue Pea is a beautiful flower that blooms in the spring. It is a symbol of love and purity.",
+    "flower_benefit_3": "The Blue Pea is a beautiful flower that blooms in the spring. It is a symbol of love and purity."
+  },
+  "nov": {
+    "flower": "Marigold",
+    "flower_mv": "ސަނދުބަރަކަ",
+    "video": "nov.mp4",
+    "theme_color": "linear-gradient(180deg,rgba(30, 64, 0, 0.9) 0%, rgba(0, 0, 0, 0.9) 100%)",
+    "flower_description": "Marigold tea, brewed from golden petals, has been cherished for centuries for its medicinal qualities. Its gentle, slightly spicy flavour soothes from within, supports skin health, and offers natural healing benefits.",
+    "flower_image": "bg_nov.png",
+    "flower_benefit_1": "The Blue Pea is a beautiful flower that blooms in the spring. It is a symbol of love and purity.",
+    "flower_benefit_2": "The Blue Pea is a beautiful flower that blooms in the spring. It is a symbol of love and purity.",
+    "flower_benefit_3": "The Blue Pea is a beautiful flower that blooms in the spring. It is a symbol of love and purity."
+  },
+  "dec": {
+    "flower": "Lemon",
+    "flower_mv": "ލުނބޯ",
+    "video": "dec.mp4",
+    "theme_color": "linear-gradient(180deg,rgba(30, 64, 0, 0.9) 0%, rgba(0, 0, 0, 0.9) 100%)",
+    "flower_description": "Bright and refreshing, lemon tea blends dried lemon pieces with tea leaves, preserving the fruit's natural zest. Its crisp, tangy flavour offers a fresh boost and is often used as a soothing cold remedy.",
+    "flower_image": "bg_dec.png",
+    "flower_benefit_1": "The Blue Pea is a beautiful flower that blooms in the spring. It is a symbol of love and purity.",
+    "flower_benefit_2": "The Blue Pea is a beautiful flower that blooms in the spring. It is a symbol of love and purity.",
+    "flower_benefit_3": "The Blue Pea is a beautiful flower that blooms in the spring. It is a symbol of love and purity."
+  }
+}

@@ -1,0 +1,257 @@
+/* Container */
+.calContainer {
+  font-family: var(--font-rubik);
+  width: 100%;
+  padding: 12px;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.10);
+  backdrop-filter: blur(7.55px);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.1);
+}
+
+.arabicCalendarMonth {
+  font-family: var(--font-noto-sans-arabic);
+  direction: rtl;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: right;
+}
+
+/* Header */
+.headerRow {
+  display: flex;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 12px;
+  margin-bottom: 12px;
+}
+
+.todayText {
+  font-size: 52px;
+  line-height: 52px;
+  font-weight: 800;
+  font-family: var(--font-outfit);
+}
+
+.todayDayTextContainer {
+  flex: 1;
+  margin-left: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.todayDayText {
+  font-size: 14px;
+  font-weight: 700;
+  font-family: var(--font-rubik);
+}
+
+.calendarMonthMv {
+  font-family: var(--font-ooredoo-font);
+  color: #FFF;
+  font-size: 32px;
+}
+
+.todayDayTextMv {
+  font-family: var(--font-ooredoo-font);
+  font-size: 16px;
+  font-weight: 700;
+}
+
+/* Expand button */
+.expandButton {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.expandText {
+  color: #1e90ff;
+  font-weight: 600;
+}
+
+/* Day labels */
+.dayLabelsRow {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 6px;
+  padding: 0 6px;
+}
+
+.dayLabelContainer {
+  width: 22px;
+  height: 25px;
+  line-height: 22px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.37);
+  border-radius: 5px;
+  margin-bottom: 12px;
+}
+
+.dayLabel {
+  font-weight: 400;
+  font-size: 12px;
+}
+
+/* Weeks animation */
+.weeksClip {
+  overflow: hidden;
+}
+
+.weeksContainer {
+  transition: transform 250ms ease-out;
+}
+
+/* Week row */
+.weekRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 6px;
+  padding: 6px;
+}
+
+/* Day cell */
+.dayContainer {
+  width: 22px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.dayContainerToday {
+  background-color: #f10c0c;
+}
+
+.dayContainerPublicHoliday {
+  background-color: #ff6b6b;
+}
+
+.dayContainerSchoolDays {
+  background-color: #4ecdc4;
+}
+
+.dayContainerOther {
+  background-color: #95e1d3;
+}
+
+.dayContainerSpecialDays {
+  background-color: #ffa726;
+}
+
+.dayContainerTermHolidays {
+  background-color: #fce38a;
+}
+
+.dayContainerExamDays {
+  background-color: #ff8a80;
+}
+
+.dayText {
+  text-align: center;
+  font-size: 12px;
+}
+
+.dayTextOtherMonth {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.dayTextToday {
+  color: #ffffff;
+  font-weight: 700;
+}
+
+/* Public holidays */
+.publicHolidays {
+  border-top: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.holidayDate {
+  display: block;
+  font-weight: 400;
+  opacity: 0.5;
+  font-size: 12px;
+  color: #ffffff;
+}
+
+.holidayName {
+
+  display: block;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.holidayType {
+  font-size: 40px;
+  line-height: 40px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: -4px;
+}
+
+.holidayTypePublicHoliday {
+  color: #ff6b6b;
+}
+
+.holidayTypeSchoolDays {
+  color: #4ecdc4;
+}
+
+.holidayTypeOther {
+  color: #95e1d3;
+}
+
+.holidayTypeSpecialDays {
+  color: #ffa726;
+}
+
+.holidayTypeTermHolidays {
+  color: #fce38a;
+}
+
+.holidayTypeExamDays {
+  color: #ff8a80;
+}
+
+/* Nakai section */
+.nakai {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 12px;
+}
+
+.nakaiNameText {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.nakaiNameMvText {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.nakaiDescriptionText {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.prayer {
+  flex: 1;
+  font-size: 12px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.prayerNameText {
+  font-size: 10px;
+  font-weight: 500;
+}
+
+.prayerTimeText {
+  font-size: 12px;
+  font-weight: 400;
+}

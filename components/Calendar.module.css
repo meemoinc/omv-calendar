@@ -52,12 +52,16 @@
   font-family: var(--font-ooredoo-font);
   color: #FFF;
   font-size: 32px;
+  unicode-bidi: embed;
+  direction: rtl;
 }
 
 .todayDayTextMv {
   font-family: var(--font-ooredoo-font);
   font-size: 16px;
   font-weight: 700;
+  unicode-bidi: embed;
+  direction: rtl;
 }
 
 /* Expand button */
@@ -123,6 +127,8 @@
   cursor: pointer;
   border-radius: 5px;
 }
+
+
 
 .dayContainerToday {
   background-color: #f10c0c;

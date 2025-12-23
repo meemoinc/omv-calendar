@@ -17,6 +17,12 @@ export default function MonthPage() {
   const [scrollOpacity, setScrollOpacity] = useState(0);
   const [backdropBlur, setBackdropBlur] = useState(0);
 
+  // Safely handle the month parameter (can be string | string[] | undefined)
+  type MonthKey = keyof typeof monthData;
+  const validMonths: MonthKey[] = ['jan', 'feb', 'mar', 'apr', 'may', 'jun', 'jul', 'aug', 'sep', 'oct', 'nov', 'dec'];
+  const rawMonth = typeof month === 'string' ? month.toLowerCase() : 'jan';
+  const monthSlug: MonthKey = validMonths.includes(rawMonth as MonthKey) ? (rawMonth as MonthKey) : 'jan';
+
   const monthMap: Record<string, number> = {
     jan: 1,
     feb: 2,
@@ -32,7 +38,7 @@ export default function MonthPage() {
     dec: 12,
   };
 
-  const monthNumber = monthMap[month.toLowerCase()] || 1; // default to Jan
+  const monthNumber = monthMap[monthSlug] || 1; // default to Jan
   const year = 2026; // you can make this dynamic if needed
 
   useEffect(() => {
@@ -63,7 +69,7 @@ export default function MonthPage() {
 
   return (
     <div style={{
-      backgroundImage: `${monthData[month].theme_color}`,
+      backgroundImage: `${monthData[monthSlug].theme_color}`,
       backgroundSize: 'cover',
       backgroundPosition: 'center',
       backgroundRepeat: 'no-repeat'
@@ -75,27 +81,27 @@ export default function MonthPage() {
 
         <h2 className="mt-8">Tea of the Month</h2>
         <div>
-          <h1>{monthData[month].flower}</h1>
-          <strong className="flowerMv">{monthData[month].flower_mv}</strong>
+          <h1>{monthData[monthSlug].flower}</h1>
+          <strong className="flowerMv">{monthData[monthSlug].flower_mv}</strong>
         </div>
 
         <div className="text-white mb-8">
-          <p>{monthData[month].flower_description}</p>
+          <p>{monthData[monthSlug].flower_description}</p>
         </div>
 
-        <h2 className="mb-4">Benefits of {monthData[month].flower}</h2>
+        <h2 className="mb-4">Benefits of {monthData[monthSlug].flower}</h2>
         <div className="flex md:grid md:grid-cols-3 gap-4 mb-8 overflow-x-auto md:overflow-x-visible scrollbar-hide md:scrollbar-default">
           <div className="benefitCard rounded-xl max-w-[270px] md:min-w-0 flex-shrink-0 md:flex-shrink">
             <strong className="block mb-3">Benefit 1</strong>
-            <p>{monthData[month].flower_benefit_1}</p>
+            <p>{monthData[monthSlug].flower_benefit_1}</p>
           </div>
           <div className="benefitCard rounded-xl max-w-[270px] md:min-w-0 flex-shrink-0 md:flex-shrink">
             <strong className="block mb-3">Benefit 2</strong>
-            <p>{monthData[month].flower_benefit_2}</p>
+            <p>{monthData[monthSlug].flower_benefit_2}</p>
           </div>
           <div className="benefitCard rounded-xl max-w-[270px] md:min-w-0 flex-shrink-0 md:flex-shrink">
             <strong className="block mb-3">Benefit 3</strong>
-            <p>{monthData[month].flower_benefit_3}</p>
+            <p>{monthData[monthSlug].flower_benefit_3}</p>
           </div>
         </div>
         <TeaOoredoo />
@@ -114,14 +120,14 @@ export default function MonthPage() {
         {/* <div className="backdrop-blur-xs w-full absolute left-0 top-[440px] right-0 z-21 h-[250px] "></div> */}
         <div style={{ height: '550px', }}>
           <video preload="metadata" width="100%" height="100%" className="pointer-events-none" autoPlay muted loop playsInline style={{ height: '550px', objectFit: 'cover' }}>
-            <source src={`/mp4/${monthData[month].video}`} type="video/mp4" />
+            <source src={`/mp4/${monthData[monthSlug].video}`} type="video/mp4" />
           </video>
         </div>
       </div>
       <div
         className="fixed inset-0 z-0 top-0 right-0 left-0 blur-sm"
         style={{
-          backgroundImage: `${monthData[month].theme_color}, url(${`/${monthData[month].flower_image}`})`,
+          backgroundImage: `${monthData[monthSlug].theme_color}, url(${`/${monthData[monthSlug].flower_image}`})`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat'

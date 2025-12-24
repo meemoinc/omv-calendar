@@ -31,7 +31,23 @@ const notoSansArabic = Noto_Sans_Arabic({
 
 export const metadata: Metadata = {
   title: "Ooredoo Calendar 2026",
-  description: "Here’s to a year brewed with colour, culture, and connection. A year to refresh, to unwind, to rediscover simple joys, one cup at a time.",
+  description: "Here's to a year brewed with colour, culture, and connection. A year to refresh, to unwind, to rediscover simple joys, one cup at a time.",
+  icons: {
+    icon: '/favicon.ico',
+    apple: '/apple-icon.png',
+    shortcut: '/apple-icon.png',
+  },
+  manifest: '/manifest.json',
+  appleWebApp: {
+    capable: true,
+    statusBarStyle: 'default',
+    title: 'Ooredoo Calendar',
+  },
+  openGraph: {
+    title: "Ooredoo Calendar 2026",
+    description: "Here's to a year brewed with colour, culture, and connection. A year to refresh, to unwind, to rediscover simple joys, one cup at a time.",
+    images: '/og-image.png',
+  },
 };
 
 export default function RootLayout({

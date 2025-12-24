@@ -74,7 +74,7 @@ export default function MonthPage() {
       backgroundPosition: 'center',
       backgroundRepeat: 'no-repeat'
     }}>
-      <main className=" w-full max-w-3xl mx-auto z-9 relative p-4 z-1" style={{ paddingTop: '400px' }}>
+      <main className=" w-full max-w-3xl mx-auto z-9 relative p-4 z-1 mb-5" style={{ paddingTop: '400px' }}>
 
 
         <Calendar month={monthNumber} year={year} expanded={true} />
@@ -92,19 +92,22 @@ export default function MonthPage() {
         <h2 className="mb-4">Benefits of {monthData[monthSlug].flower}</h2>
         <div className="flex md:grid md:grid-cols-3 gap-4 mb-8 overflow-x-auto md:overflow-x-visible scrollbar-hide md:scrollbar-default">
           <div className="benefitCard rounded-xl max-w-[270px] md:min-w-0 flex-shrink-0 md:flex-shrink">
-            <strong className="block mb-3">Benefit 1</strong>
-            <p>{monthData[monthSlug].flower_benefit_1}</p>
+            <strong className="block mb-3">{monthData[monthSlug].flower_benefit_1_title}</strong>
+            <p>{monthData[monthSlug].flower_benefit_1_description}</p>
           </div>
           <div className="benefitCard rounded-xl max-w-[270px] md:min-w-0 flex-shrink-0 md:flex-shrink">
-            <strong className="block mb-3">Benefit 2</strong>
-            <p>{monthData[monthSlug].flower_benefit_2}</p>
+            <strong className="block mb-3">{monthData[monthSlug].flower_benefit_2_title}</strong>
+            <p>{monthData[monthSlug].flower_benefit_2_description}</p>
           </div>
           <div className="benefitCard rounded-xl max-w-[270px] md:min-w-0 flex-shrink-0 md:flex-shrink">
-            <strong className="block mb-3">Benefit 3</strong>
-            <p>{monthData[monthSlug].flower_benefit_3}</p>
+            <strong className="block mb-3">{monthData[monthSlug].flower_benefit_3_title}</strong>
+            <p>{monthData[monthSlug].flower_benefit_3_description}</p>
           </div>
         </div>
         <TeaOoredoo />
+        <div className="text-white text-center text-sm mt-5 p-5">
+          &copy; 2026 Ooredoo Maldives. All rights reserved.
+        </div>
       </main>
 
       <div className="fixed top-0 left-0 right-0 z-1">

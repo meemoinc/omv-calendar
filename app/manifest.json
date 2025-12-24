@@ -1,0 +1,37 @@
+{
+  "name": "Ooredoo Calendar 2026",
+  "short_name": "Ooredoo Calendar",
+  "theme_color": "#E70033",
+  "background_color": "#E70033",
+  "display": "standalone",
+  "orientation": "portrait",
+  "viewport": "width=device-width, initial-scale=1.0",
+  "description": "Here's to a year brewed with colour, culture, and connection. A year to refresh, to unwind, to rediscover simple joys, one cup at a time.",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "/apple-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/apple-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

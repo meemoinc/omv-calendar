@@ -95,11 +95,11 @@ p {
 }
 
 .footerOoredooTeaContent {
-  min-height: 600px;
+  height: 760px;
   background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%);
 }
 
-.footerOoredooTea img {
+.footerOoredooTea .backgroundImage {
   position: absolute;
   top: 0;
   left: 0;

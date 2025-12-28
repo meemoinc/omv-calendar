@@ -41,7 +41,7 @@ export const metadata: Metadata = {
   appleWebApp: {
     capable: true,
     statusBarStyle: 'default',
-    title: 'Ooredoo Calendar',
+    title: 'Calendar',
   },
   openGraph: {
     title: "Ooredoo Calendar 2026",

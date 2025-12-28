@@ -18,6 +18,14 @@
   text-align: right;
 }
 
+.todayArabicDay {
+  font-family: var(--font-noto-sans-arabic);
+  direction: rtl;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: right;
+}
+
 /* Header */
 .headerRow {
   display: flex;
@@ -62,6 +70,7 @@
   font-weight: 700;
   unicode-bidi: embed;
   direction: rtl;
+  text-align: left;
 }
 
 /* Expand button */

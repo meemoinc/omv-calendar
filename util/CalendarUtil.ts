@@ -20,7 +20,7 @@ export function toHijri(date: Date, locale = 'en-US') {
   const formatter = new Intl.DateTimeFormat(`${locale}-u-ca-islamic`, {
     day: 'numeric',
     month: 'long',
-    year: 'numeric',
+    // year: 'numeric',
   });
 
   return formatter

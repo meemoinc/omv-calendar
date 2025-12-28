@@ -11,17 +11,25 @@ import {
   parseISO,
   isWithinInterval,
 } from 'date-fns';
+import { motion, AnimatePresence } from 'framer-motion';
 import { arSA } from 'date-fns/locale';
 import React, { useMemo, useState, useEffect, useRef } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import styles from './Calendar.module.css';
-import { getHijriMonthRange, toDhivehiGregorian } from '../util/CalendarUtil';
+import { getHijriMonthRange, toDhivehiGregorian, toHijri } from '../util/CalendarUtil';
 import holidays from '../util/holidays.json';
 import nakaiPrayerData from '../util/nakai_prayer.json';
 
 const BOX_SIZE = 36;
 const todayDate = new Date();
+
+const dateTransition = {
+  initial: { opacity: 0, y: 6 },
+  animate: { opacity: 1, y: 0 },
+  exit: { opacity: 0, y: -6 },
+  transition: { duration: 0.18, ease: 'easeOut' }
+};
 
 const nakaiDescriptions = {
   'Mula': 'Strong winds, rough seas',
@@ -29,7 +37,7 @@ const nakaiDescriptions = {
   'Uthuruhalha': 'Clear blue skies, strong winds, rough seas',
   'Huvan': 'Calm seas, clear blue skies',
   'Dhinasha': 'North-easterly winds, moderate seas, plenty of sunshine',
-  'Hiyaviha': 'Seas are calm, days and nights are hot',
+  'Hiyavihaa': 'Seas are calm, days and nights are hot',
   'Furabadhuruva': 'Frequent, short, sharp bursts of thunder and lightning',
   'Fasbadhuruva': 'Usually clear blue skies',
   'Reyva': 'If storm occur they may be severe',
@@ -204,9 +212,9 @@ export default function Calendar({
 
   // If today is December 2025, default to January 1, 2026
   const getDefaultSelectedDate = (): Date => {
-    if (today.getFullYear() === 2025 && today.getMonth() === 11) { // Month 11 = December
-      return new Date(2026, 0, 1); // January 1, 2026
-    }
+    // if (today.getFullYear() === 2025 && today.getMonth() === 11) { // Month 11 = December
+    //   return new Date(2026, 0, 1); // January 1, 2026
+    // }
     return today;
   };
 
@@ -237,6 +245,7 @@ export default function Calendar({
     };
   }, [isMonthDropdownOpen]);
 
+  const isSelectedToday = isToday(selectedDate);
   const firstDay = startOfMonth(new Date(year, monthIndex));
   const lastDay = endOfMonth(firstDay);
   const calendarStart = startOfWeek(firstDay, { weekStartsOn: 0 });
@@ -353,27 +362,38 @@ export default function Calendar({
       {/* Calendar Card */}
       <div className={`${styles.calContainer} rounded-xl mb-8`}>
         {/* Header */}
-        <div className={`${styles.headerRow} rounded-lg`}>
-          <div className={styles.todayText}>{format(today, 'dd')}</div>
-
-          <div className={styles.todayDayTextContainer}>
-            <div>
-              <div className={styles.todayDayText}>
-                Today, {format(today, 'eeee')}
-              </div>
-              <div className={styles.todayDayTextMv}>{dhivehiDayMap[format(today, 'eee')]}</div>
-            </div>
-
-            {/* <button
-              onClick={() => setIsExpanded((v) => !v)}
-              className={styles.expandButton}
+        <div className={styles.headerRow}>
+          <AnimatePresence mode="wait">
+            <motion.div
+              key={format(selectedDate, 'yyyy-MM-dd')}
+              {...dateTransition}
+              className="flex items-center gap-1 justify-between flex-1"
             >
-              <span className={styles.expandText}>
-                {isExpanded ? 'Collapse' : 'Expand'}
-              </span>
-            </button> */}
-          </div>
+              <div className={styles.todayText}>
+                {format(selectedDate, 'dd')}
+              </div>
+
+              <div className={styles.todayDayTextContainer}>
+                <div>
+                  <div className={styles.todayDayText}>
+                    {isToday(selectedDate) ? 'Today' : format(selectedDate, 'MMMM')},
+                    {' '}
+                    {format(selectedDate, 'eeee')}
+                  </div>
+
+                  <div className={styles.todayDayTextMv}>
+                    {dhivehiDayMap[format(selectedDate, 'eee')]}
+                  </div>
+                </div>
+
+                <div className={styles.todayArabicDay}>
+                  {toHijri(selectedDate, 'ar-SA')}
+                </div>
+              </div>
+            </motion.div>
+          </AnimatePresence>
         </div>
+
 
         {/* Day labels */}
         <div className={styles.dayLabelsRow}>

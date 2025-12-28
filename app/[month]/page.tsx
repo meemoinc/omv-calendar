@@ -7,11 +7,12 @@ import monthData from '@/util/month.json';
 import '@/app/globals.css';
 import MonthTransition from '@/components/MonthTransition';
 import TeaOoredoo from '@/components/TeaOoredoo';
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 
 import Link from 'next/link';
 
 export default function MonthPage() {
+  const videoRef = useRef<HTMLVideoElement | null>(null)
   const params = useParams();
   const { month } = params; // e.g., 'jan'
   const [scrollOpacity, setScrollOpacity] = useState(0);
@@ -66,6 +67,21 @@ export default function MonthPage() {
       window.removeEventListener('scroll', handleScroll);
     };
   }, []);
+
+  useEffect(() => {
+    const video = videoRef.current
+    if (!video) return
+
+    // Force reload + play
+    video.load()
+
+    const playPromise = video.play()
+    if (playPromise !== undefined) {
+      playPromise.catch(() => {
+        // Ignore autoplay rejection (Safari / iOS)
+      })
+    }
+  }, [monthSlug]) // important if month changes
 
   return (
     <div style={{
@@ -122,8 +138,20 @@ export default function MonthPage() {
         <div className="backdrop-blur-xs w-full absolute left-0 top-[380px] right-0 z-20 h-[500px] "></div>
         {/* <div className="backdrop-blur-xs w-full absolute left-0 top-[440px] right-0 z-21 h-[250px] "></div> */}
         <div style={{ height: '550px', }}>
-          <video preload="metadata" width="100%" height="100%" className="pointer-events-none" autoPlay muted loop playsInline style={{ height: '550px', objectFit: 'cover' }}>
-            <source src={`/mp4/${monthData[monthSlug].video}`} type="video/mp4" />
+          <video
+            ref={videoRef}
+            preload="auto"
+            autoPlay
+            muted
+            loop
+            playsInline
+            className="pointer-events-none w-full"
+            style={{ height: '550px', objectFit: 'cover' }}
+          >
+            <source
+              src={`/mp4/${monthData[monthSlug].video}`}
+              type="video/mp4"
+            />
           </video>
         </div>
       </div>

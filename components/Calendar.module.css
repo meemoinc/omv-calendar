@@ -64,6 +64,15 @@
   direction: rtl;
 }
 
+.dayLabelContainerWeekend {
+  opacity: 0.5;
+}
+
+.dayContainerWeekend {
+  opacity: 0.5;
+}
+
+
 .todayDayTextMv {
   font-family: var(--font-ooredoo-font);
   font-size: 16px;

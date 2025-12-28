@@ -424,6 +424,7 @@ export default function Calendar({
                   const inMonth = isSameMonth(day, firstDay);
                   const todayMark = isToday(day);
                   const dayHolidays = getHolidaysForDate(day, holidaysList);
+                  const isWeekend = day.getDay() === 5 || day.getDay() === 6;
                   // Priority: Public Holiday > Exam Days > Term Holidays > School Days > Special Days > Other
                   // If multiple holidays, prioritize by type
                   const priorityHoliday = dayHolidays.find(h => h.type === 'Public Holiday') ||
@@ -441,7 +442,13 @@ export default function Calendar({
                     <div
                       key={di}
                       onClick={() => setSelectedDate(day)}
-                      className={`${styles.dayContainer} ${todayMark ? styles.dayContainerToday : ''} ${holidayClass ? styles[holidayClass] : ''} ${isSelected ? 'ring-2 ring-white-500' : ''}`}
+                      className={`
+                        ${styles.dayContainer}
+                        ${todayMark ? styles.dayContainerToday : ''}
+                        ${holidayClass ? styles[holidayClass] : ''}
+                        ${isSelected ? 'ring-2 ring-white-500' : ''}
+                        ${isWeekend ? styles.dayContainerWeekend : ''}
+                      `}
                       style={{ cursor: 'pointer' }}
                     >
                       <span

@@ -7,6 +7,7 @@ import monthData from '@/util/month.json';
 import '@/app/globals.css';
 import MonthTransition from '@/components/MonthTransition';
 import TeaOoredoo from '@/components/TeaOoredoo';
+import AddToHomeScreen from '@/components/AddToHomeScreen';
 import { useState, useEffect, useRef } from 'react';
 
 import Link from 'next/link';
@@ -121,6 +122,8 @@ export default function MonthPage() {
           </div>
         </div>
         <TeaOoredoo />
+
+        <AddToHomeScreen />
         <div className="text-white text-center text-sm mt-5 p-5">
           &copy; 2026 Ooredoo Maldives. All rights reserved.
         </div>

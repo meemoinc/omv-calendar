@@ -11,7 +11,7 @@ import {
   parseISO,
   isWithinInterval,
 } from 'date-fns';
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion, AnimatePresence, easeOut } from 'framer-motion';
 import { arSA } from 'date-fns/locale';
 import React, { useMemo, useState, useEffect, useRef } from 'react';
 import Image from 'next/image';
@@ -28,7 +28,10 @@ const dateTransition = {
   initial: { opacity: 0, y: 6 },
   animate: { opacity: 1, y: 0 },
   exit: { opacity: 0, y: -6 },
-  transition: { duration: 0.18, ease: 'easeOut' }
+  transition: {
+    duration: 0.25,
+    ease: easeOut,
+  },
 };
 
 const nakaiDescriptions = {

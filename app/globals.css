@@ -2,7 +2,7 @@
 
 @font-face {
   font-family: 'Ooredoo Font';
-  src: url('/ooredoo-font.ttf') format('truetype');
+  src: url('/mvtypewritersb.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -54,6 +54,13 @@ p {
   font-size: 12px;
   font-weight: 400;
   color: #FFF;
+}
+
+.dhivehiFont {
+  font-family: var(--font-ooredoo-font);
+  color: #FFF;
+  unicode-bidi: embed;
+  direction: rtl;
 }
 
 .flowerMv {

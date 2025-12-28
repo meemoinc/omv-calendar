@@ -31,13 +31,13 @@ const nakaiDescriptions = {
   'Dhinasha': 'North-easterly winds, moderate seas, plenty of sunshine',
   'Hiyaviha': 'Seas are calm, days and nights are hot',
   'Furabadhuruva': 'Frequent, short, sharp bursts of thunder and lightning',
-  'Fusbadhuruva': 'Usually clear blue skies',
+  'Fasbadhuruva': 'Usually clear blue skies',
   'Reyva': 'If storm occur they may be severe',
   'Assidha': 'Begins with storm, then becomes hot and dry',
   'Burunu': 'Begins with a storm and strong winds, then becomes calm',
   'Kethi': 'Dark clouds, frequent rains',
   'Roanu': 'Storms, strong winds and rough seas',
-  'Miyahelia': 'Storms, rough seas and strong westerly winds',
+  'Miaheli': 'Storms, rough seas and strong westerly winds',
   'Adha': 'South-westerly winds and light rain',
   'Funoas': 'Storms, rough seas, frequent sudden gales',
   'Fus': 'Wet and overcast',
@@ -47,9 +47,9 @@ const nakaiDescriptions = {
   'Uthura': 'Strong north-westerly winds',
   'Atha': 'Generally clear and calm with isolated showers',
   'Hitha': 'Light winds, isolated showers',
-  'Hey': 'Strong winds from all directions',
+  'Hei': 'Strong winds from all directions',
   'Nora': 'Light winds, some sun and showers',
-  'Dosha': 'Light north-easterly winds',
+  'Dhosha': 'Light north-easterly winds',
 }
 
 type Holiday = {

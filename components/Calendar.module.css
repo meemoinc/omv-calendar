@@ -236,6 +236,10 @@
 }
 
 .nakaiNameMvText {
+  font-family: var(--font-ooredoo-font);
+  color: #FFF;
+  unicode-bidi: embed;
+  direction: rtl;
   font-size: 14px;
   font-weight: 400;
 }

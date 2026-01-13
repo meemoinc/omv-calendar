@@ -30,7 +30,7 @@ const notoSansArabic = Noto_Sans_Arabic({
 });
 
 export const metadata: Metadata = {
-  title: "Ooredoo Calendar 2026",
+  title: "Ooredoo 2026",
   description: "Here's to a year brewed with colour, culture, and connection. A year to refresh, to unwind, to rediscover simple joys, one cup at a time.",
   icons: {
     icon: '/favicon.ico',
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     title: 'Calendar',
   },
   openGraph: {
-    title: "Ooredoo Calendar 2026",
+    title: "Ooredoo 2026",
     description: "Here's to a year brewed with colour, culture, and connection. A year to refresh, to unwind, to rediscover simple joys, one cup at a time.",
     images: '/og-image.png',
   },

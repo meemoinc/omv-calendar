@@ -6,10 +6,16 @@
     "type": "Public Holiday"
   },
   {
-    "name": "First Term 2026",
-    "startDate": "2026-01-25",
+    "name": "National Poets' Day",
+    "startDate": "2026-01-15",
     "dateRange": null,
-    "type": "School Days"
+    "type": "Special Days"
+  },
+  {
+    "name": "Martyrs' Day",
+    "startDate": "2026-01-20",
+    "dateRange": null,
+    "type": "Special Days"
   },
   {
     "name": "Beginning of Academic Year 2026",
@@ -18,16 +24,58 @@
     "type": "School Days"
   },
   {
+    "name": "World Cancer Day",
+    "startDate": "2026-02-04",
+    "dateRange": null,
+    "type": "Special Days"
+  },
+  {
+    "name": "Opening of the People’s Majlis",
+    "startDate": "2026-02-05",
+    "dateRange": null,
+    "type": "Public Holiday"
+  },
+  {
     "name": "First of Ramadan",
     "startDate": "2026-02-18",
     "dateRange": null,
     "type": "Public Holiday"
   },
   {
-    "name": "Last 10 Days of Ramadan",
+    "name": "International Mother Language Day",
+    "startDate": "2026-02-21",
+    "dateRange": null,
+    "type": "Special Days"
+  },
+  {
+    "name": "International Scout Day",
+    "startDate": "2026-02-22",
+    "dateRange": null,
+    "type": "Special Days"
+  },
+  {
+    "name": "National Patriotism Day",
+    "startDate": "2026-03-06",
+    "dateRange": null,
+    "type": "Special Days"
+  },
+  {
+    "name": "International Women's Day",
+    "startDate": "2026-03-08",
+    "dateRange": null,
+    "type": "Special Days"
+  },
+  {
+    "name": "Start of the Last 10 Days of Ramadan",
     "startDate": "2026-03-09",
     "dateRange": null,
     "type": "Public Holiday"
+  },
+  {
+    "name": "International Day to Combat Islamophobia",
+    "startDate": "2026-03-15",
+    "dateRange": null,
+    "type": "Special Days"
   },
   {
     "name": "Eid-al-Fitr",
@@ -42,14 +90,92 @@
     "type": "Public Holiday"
   },
   {
-    "name": "Labour Day",
+    "name": "On the occasion of Eid-al-Fitr",
+    "startDate": "2026-03-22",
+    "dateRange": null,
+    "type": "Public Holiday"
+  },
+  {
+    "name": "World Meteorological Day",
+    "startDate": "2026-03-23",
+    "dateRange": null,
+    "type": "Special Days"
+  },
+  {
+    "name": "World Tuberculosis Day",
+    "startDate": "2026-03-24",
+    "dateRange": null,
+    "type": "Special Days"
+  },
+  {
+    "name": "World Health Day",
+    "startDate": "2026-04-07",
+    "dateRange": null,
+    "type": "Special Days"
+  },
+  {
+    "name": "National Day of Dhivehi Language",
+    "startDate": "2026-04-14",
+    "dateRange": null,
+    "type": "Special Days"
+  },
+  {
+    "name": "National Doctors Day",
+    "startDate": "2026-04-18",
+    "dateRange": null,
+    "type": "Special Days"
+  },
+  {
+    "name": "Earth Day",
+    "startDate": "2026-04-22",
+    "dateRange": null,
+    "type": "Special Days"
+  },
+  {
+    "name": "International Workers' Day",
     "startDate": "2026-05-01",
     "dateRange": null,
     "type": "Public Holiday"
   },
   {
+    "name": "World Press Freedom Day",
+    "startDate": "2026-05-03",
+    "dateRange": null,
+    "type": "Special Days"
+  },
+  {
+    "name": "World Thalassaemia Day",
+    "startDate": "2026-05-08",
+    "dateRange": null,
+    "type": "Special Days"
+  },
+  {
     "name": "Children's Day",
     "startDate": "2026-05-10",
+    "dateRange": null,
+    "type": "Special Days"
+  },
+  {
+    "name": "International Nurses Day",
+    "startDate": "2026-05-12",
+    "dateRange": null,
+    "type": "Special Days"
+  },
+  {
+    "name": "International Day of Families",
+    "startDate": "2026-05-15",
+    "dateRange": null,
+    "type": "Special Days"
+  },
+  {
+    "name": "World Communications Day",
+    "startDate": "2026-05-17",
+    "dateRange": null,
+    "type": "Special Days"
+  },
+  {
+    "name": "International Day for Biological Diversity",
+    "startDate": "2026-05-22",
     "dateRange": null,
     "type": "Special Days"
   },
@@ -78,10 +204,40 @@
     "type": "Public Holiday"
   },
   {
-    "name": "Beginning of AL Batch 2026",
+    "name": "On the occasion of Eid-al-Adha",
+    "startDate": "2026-05-29",
+    "dateRange": null,
+    "type": "Public Holiday"
+  },
+  {
+    "name": "On the occasion of Eid-al-Adha",
+    "startDate": "2026-05-30",
+    "dateRange": null,
+    "type": "Public Holiday"
+  },
+  {
+    "name": "World Environment Day",
+    "startDate": "2026-06-05",
+    "dateRange": null,
+    "type": "Special Days"
+  },
+  {
+    "name": "Beginning of A'Level Batch 2026",
     "startDate": "2026-06-07",
     "dateRange": null,
     "type": "School Days"
+  },
+  {
+    "name": "World Oceans Day",
+    "startDate": "2026-06-08",
+    "dateRange": null,
+    "type": "Special Days"
+  },
+  {
+    "name": "World Blood Donor Day",
+    "startDate": "2026-06-14",
+    "dateRange": null,
+    "type": "Special Days"
   },
   {
     "name": "Islamic New Year 1448",
@@ -90,16 +246,34 @@
     "type": "Public Holiday"
   },
   {
+    "name": "International Day Against Drug Abuse and Illicit Trafficking",
+    "startDate": "2026-06-26",
+    "dateRange": null,
+    "type": "Special Days"
+  },
+  {
     "name": "First Term Exam",
     "startDate": "2026-06-30",
     "dateRange": null,
     "type": "Exam Days"
   },
   {
+    "name": "National Writers' Day",
+    "startDate": "2026-07-08",
+    "dateRange": null,
+    "type": "Special Days"
+  },
+  {
     "name": "New Admission - LKG & Gr. 1",
     "startDate": "2026-07-09",
     "dateRange": null,
     "type": "School Days"
+  },
+  {
+    "name": "World Population Day",
+    "startDate": "2026-07-11",
+    "dateRange": null,
+    "type": "Special Days"
   },
   {
     "name": "First Term Holidays",
@@ -118,6 +292,18 @@
     "startDate": "2026-07-27",
     "dateRange": null,
     "type": "Public Holiday"
+  },
+  {
+    "name": "Second Term 2026",
+    "startDate": "2026-08-02",
+    "dateRange": null,
+    "type": "School Days"
+  },
+  {
+    "name": "International Youth Day",
+    "startDate": "2026-08-12",
+    "dateRange": null,
+    "type": "Special Days"
   },
   {
     "name": "National Day",
@@ -144,16 +330,64 @@
     "type": "Exam Days"
   },
   {
+    "name": "International Literacy Day",
+    "startDate": "2026-09-08",
+    "dateRange": null,
+    "type": "Special Days"
+  },
+  {
+    "name": "National Heritage Day",
+    "startDate": "2026-09-12",
+    "dateRange": null,
+    "type": "Special Days"
+  },
+  {
+    "name": "The Day Maldives Embraced Islam",
+    "startDate": "2026-09-13",
+    "dateRange": null,
+    "type": "Public Holiday"
+  },
+  {
     "name": "Second Term Mid-Break",
     "startDate": "2026-09-13",
     "dateRange": null,
     "type": "Term Holidays"
   },
   {
-    "name": "The Day Maldives Embraced Islam",
-    "startDate": "2026-09-24",
+    "name": "International Democracy Day",
+    "startDate": "2026-09-15",
     "dateRange": null,
-    "type": "Public Holiday"
+    "type": "Special Days"
+  },
+  {
+    "name": "International Day for the Preservation of the Ozone Layer",
+    "startDate": "2026-09-16",
+    "dateRange": null,
+    "type": "Special Days"
+  },
+  {
+    "name": "International Day of Peace",
+    "startDate": "2026-09-21",
+    "dateRange": null,
+    "type": "Special Days"
+  },
+  {
+    "name": "World Tourism Day",
+    "startDate": "2026-09-27",
+    "dateRange": null,
+    "type": "Special Days"
+  },
+  {
+    "name": "International Day for Older Persons",
+    "startDate": "2026-10-01",
+    "dateRange": null,
+    "type": "Special Days"
+  },
+  {
+    "name": "National Broadcasting Day",
+    "startDate": "2026-10-04",
+    "dateRange": null,
+    "type": "Special Days"
   },
   {
     "name": "Teachers' Day",
@@ -162,10 +396,34 @@
     "type": "Special Days"
   },
   {
+    "name": "National Farmers' Day",
+    "startDate": "2026-10-15",
+    "dateRange": null,
+    "type": "Special Days"
+  },
+  {
+    "name": "World Food Day",
+    "startDate": "2026-10-16",
+    "dateRange": null,
+    "type": "Special Days"
+  },
+  {
     "name": "School Transfer Period 2",
     "startDate": "2026-10-18",
     "dateRange": null,
     "type": "School Days"
+  },
+  {
+    "name": "World Energy Day",
+    "startDate": "2026-10-22",
+    "dateRange": null,
+    "type": "Special Days"
+  },
+  {
+    "name": "World UN Day",
+    "startDate": "2026-10-24",
+    "dateRange": null,
+    "type": "Special Days"
   },
   {
     "name": "Victory Day",
@@ -180,10 +438,40 @@
     "type": "Public Holiday"
   },
   {
+    "name": "Huravee Day",
+    "startDate": "2026-11-12",
+    "dateRange": null,
+    "type": "Special Days"
+  },
+  {
     "name": "Professional Development Day",
     "startDate": "2026-11-12",
     "dateRange": null,
     "type": "School Days"
+  },
+  {
+    "name": "World Diabetes Day",
+    "startDate": "2026-11-14",
+    "dateRange": null,
+    "type": "Special Days"
+  },
+  {
+    "name": "World Day for the Prevention of Child Abuse",
+    "startDate": "2026-11-19",
+    "dateRange": null,
+    "type": "Special Days"
+  },
+  {
+    "name": "International Day for the Elimination of Violence Against Women",
+    "startDate": "2026-11-25",
+    "dateRange": null,
+    "type": "Special Days"
+  },
+  {
+    "name": "World AIDS Day",
+    "startDate": "2026-12-01",
+    "dateRange": null,
+    "type": "Special Days"
   },
   {
     "name": "Second Term Exam",
@@ -192,15 +480,33 @@
     "type": "Exam Days"
   },
   {
+    "name": "International Day of Persons with Disabilities",
+    "startDate": "2026-12-03",
+    "dateRange": null,
+    "type": "Special Days"
+  },
+  {
+    "name": "Fishermen's Day",
+    "startDate": "2026-12-10",
+    "dateRange": null,
+    "type": "Special Days"
+  },
+  {
+    "name": "International Human Rights Day",
+    "startDate": "2026-12-10",
+    "dateRange": null,
+    "type": "Special Days"
+  },
+  {
     "name": "Second Term Holidays",
     "startDate": "2026-12-18",
     "dateRange": null,
     "type": "Term Holidays"
   },
   {
-    "name": "Second Term 2026",
-    "startDate": "2026-08-02",
+    "name": "National Unity Day",
+    "startDate": "2026-12-26",
     "dateRange": null,
-    "type": "School Days"
+    "type": "Special Days"
   }
 ]

@@ -488,7 +488,7 @@ export default function Calendar({
         {nakaiPrayer && (
           <div className={`${styles.nakai} rounded-lg`}>
             <div className="flex justify-between mb-2">
-              <strong className={styles.nakaiNameText}>{nakaiPrayer.nakai_day} {nakaiPrayer.nakai_name_en}</strong>
+              <strong className={styles.nakaiNameText}>{selectedDateKey} / {nakaiPrayer.nakai_day} {nakaiPrayer.nakai_name_en}</strong>
               <span className={styles.nakaiNameMvText}>{nakaiPrayer.nakai_name_mv}</span>
             </div>
             <p className={styles.nakaiDescriptionText}>{nakaiDescriptions[nakaiPrayer.nakai_name_en as keyof typeof nakaiDescriptions]}</p>
@@ -497,7 +497,8 @@ export default function Calendar({
       </div>
 
       {/* Prayer Times */}
-      <h2 className='mb-2' >Prayer Times</h2>
+      <h2 className='mb-1' >Prayer Times</h2>
+      <p className='mb-4 text-sm text-white opacity-50'>Prayer times for {selectedDateKey} in the Greater Malé Area.</p>
 
       {nakaiPrayer && (
         <div className={`${styles.calContainer} rounded-xl flex gap-2 mb-8`}>
@@ -512,7 +513,7 @@ export default function Calendar({
             <div key={name} className={`flex flex-col flex-1 items-center ${styles.prayer}`}>
               <Image src={icon} alt={name} width={24} height={24} />
               <strong className={styles.prayerNameText}>{name}</strong>
-              <span className={styles.prayerTimeText}>{decimalHoursToTime(time)}</span>
+              <span className={styles.prayerTimeText}>{time.toFixed(2)}</span>
             </div>
           ))}
         </div>

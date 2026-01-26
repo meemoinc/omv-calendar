@@ -18,6 +18,7 @@ export default function MonthPage() {
   const { month } = params; // e.g., 'jan'
   const [scrollOpacity, setScrollOpacity] = useState(0);
   const [backdropBlur, setBackdropBlur] = useState(0);
+  const [isMobile, setIsMobile] = useState(true);
 
   // Safely handle the month parameter (can be string | string[] | undefined)
   type MonthKey = keyof typeof monthData;
@@ -42,6 +43,19 @@ export default function MonthPage() {
 
   const monthNumber = monthMap[monthSlug] || 1; // default to Jan
   const year = 2026; // you can make this dynamic if needed
+
+  useEffect(() => {
+    const checkMobile = () => {
+      setIsMobile(window.innerWidth < 768);
+    };
+
+    // Check on mount
+    checkMobile();
+
+    // Listen for resize
+    window.addEventListener('resize', checkMobile);
+    return () => window.removeEventListener('resize', checkMobile);
+  }, []);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -82,7 +96,7 @@ export default function MonthPage() {
         // Ignore autoplay rejection (Safari / iOS)
       })
     }
-  }, [monthSlug]) // important if month changes
+  }, [monthSlug, isMobile]) // reload when month or viewport changes
 
   return (
     <div style={{
@@ -152,7 +166,7 @@ export default function MonthPage() {
             style={{ height: '550px', objectFit: 'cover' }}
           >
             <source
-              src={`/mp4/${monthData[monthSlug].video}`}
+              src={`${isMobile ? '/mp4' : '/16x9'}/${monthData[monthSlug].video}`}
               type="video/mp4"
             />
           </video>

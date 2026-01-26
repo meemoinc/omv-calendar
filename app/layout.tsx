@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono, Outfit, Noto_Sans_Arabic, Rubik } from "next/font/google";
 import Image from "next/image";
+import Script from "next/script";
 import "./globals.css";
 import MonthTransition from '@/components/MonthTransition';
 import Link from 'next/link';
@@ -57,6 +58,18 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <Script
+        src="https://www.googletagmanager.com/gtag/js?id=G-FSF9G9Z2GZ"
+        strategy="afterInteractive"
+      />
+      <Script id="google-analytics" strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-FSF9G9Z2GZ');
+        `}
+      </Script>
       <body
         className={`${outfit.variable} ${rubik.variable} bg-black `}
       >

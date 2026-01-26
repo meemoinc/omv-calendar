@@ -213,18 +213,20 @@ export default function Calendar({
 }: Props) {
   const today = new Date();
 
-  // If today is December 2025, default to January 1, 2026
-  const getDefaultSelectedDate = (): Date => {
-    // if (today.getFullYear() === 2025 && today.getMonth() === 11) { // Month 11 = December
-    //   return new Date(2026, 0, 1); // January 1, 2026
-    // }
-    return today;
-  };
-
   const monthIndex =
     typeof month === 'number' && month >= 1 && month <= 12
       ? month - 1
       : today.getMonth();
+
+  // If selected month is not the current month, default to 1st of that month
+  const getDefaultSelectedDate = (): Date => {
+    const isCurrentMonth = monthIndex === today.getMonth() && year === today.getFullYear();
+    if (isCurrentMonth) {
+      return today;
+    }
+    // Return 1st day of the selected month
+    return new Date(year, monthIndex, 1);
+  };
 
   const [isExpanded, setIsExpanded] = useState(expanded);
   const [selectedDate, setSelectedDate] = useState<Date>(getDefaultSelectedDate());

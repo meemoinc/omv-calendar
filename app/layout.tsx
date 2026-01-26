@@ -46,7 +46,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Ooredoo 2026",
     description: "Here's to a year brewed with colour, culture, and connection. A year to refresh, to unwind, to rediscover simple joys, one cup at a time.",
-    images: '/og-image.png',
+    images: 'https://calendar.ooredoo.mv/og-image.png',
   },
 };
 

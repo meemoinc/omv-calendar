@@ -17,7 +17,9 @@ const DHIVEHI_GREGORIAN_MONTHS = [
 
 
 export function toHijri(date: Date, locale = 'en-US') {
-  const formatter = new Intl.DateTimeFormat(`${locale}-u-ca-islamic`, {
+  // Use islamic-umalqura calendar which aligns better with observed dates
+  // The default 'islamic' calendar is algorithmic and often 1 day ahead
+  const formatter = new Intl.DateTimeFormat(`${locale}-u-ca-islamic-umalqura`, {
     day: 'numeric',
     month: 'long',
     // year: 'numeric',
@@ -36,8 +38,9 @@ export function getHijriMonthRange(
   date: Date,
   locale = 'ar'
 ) {
+  // Use islamic-umalqura calendar which aligns better with observed dates
   const formatter = new Intl.DateTimeFormat(
-    `${locale}-u-ca-islamic`,
+    `${locale}-u-ca-islamic-umalqura`,
     {
       month: 'long',
       year: 'numeric',

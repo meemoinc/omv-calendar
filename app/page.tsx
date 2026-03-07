@@ -11,19 +11,7 @@ export default function Home() {
   ];
 
   let monthSlug: string;
-
-  // If it's December 2025, redirect to January
-  if (currentYear === 2025 && currentMonth === 11) {
-    monthSlug = 'jan';
-  }
-  // If year is 2026, redirect to the correct month
-  else if (currentYear === 2026) {
-    monthSlug = monthAbbreviations[currentMonth];
-  }
-  // Otherwise, default to January
-  else {
-    monthSlug = 'jan';
-  }
+  monthSlug = monthAbbreviations[currentMonth];
 
   redirect(`/${monthSlug}`);
 }
